@@ -294,7 +294,6 @@ body{
 .work-box{
     margin: 0 1rem;
     background-color: #eee;
-    /* overflow: hidden; */
     box-shadow: 5px 5px 15px rgb(221, 221, 221);
 
 }
@@ -310,11 +309,6 @@ body{
     transition: all 600ms ease-in-out;
 }
 
-.work-content{
-    /* background-color: teal; */
-}
-
-
 .w-like{
     display: flex;
     justify-content: center;
@@ -324,7 +318,6 @@ body{
     height: 50px;
     border: 3px solid #0d6dfdd5;
     border-radius: 50%;
-    /* background-color: #0d6efd; */
     padding: 20px;
     margin: auto;
     margin-bottom: 15px;
@@ -348,7 +341,6 @@ body{
     background-size: cover;
     background-position: center center;
     padding: 4rem;
-    /* height: 32rem; */
 }
 
  .carousel-indicators .btn-1{
@@ -366,7 +358,6 @@ body{
  .category{
     position: relative;
     bottom: 10px;
-    /* padding: 0.1rem; */
     width: 20%;
  }
  .category2{
