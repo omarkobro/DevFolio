@@ -22,46 +22,39 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto me-5 mb-lg-0 fs-5 ">
           <li class="nav-item">
-            <a class="nav-link active text-light home-link " aria-current="page" href="#">Home</a>
+            <a  class="nav-link active text-light home-link " aria-current="page" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#"><span class="link-1">About</span></a>
+            <a class="nav-link " href="#about"><span class="link-1">About</span></a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link " href="#"><Span class="link-1">Services</Span></a>
+            <a class="nav-link " href="#services"><Span class="link-1">Services</Span></a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link " href="#"><span class="link-1">Work</span></a>
+            <a class="nav-link " href="#portofolio"><span class="link-1">Work</span></a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link " href="#"><span class="link-1">Blog</span></a>
+            <a class="nav-link " href="#blog"><span class="link-1">Blog</span></a>
             <li class="nav-item dropdown overflow-visible ">
-              <a class="nav-link drop-dw-border" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
+              <a class="nav-link drop-dw-border" href="#home" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                More
                 <i class="fa-solid fa-caret-down"></i>
 
               </a>
               <ul class="dropdown-menu overflow-visible">
-                <li class="nav-item dropdown overflow-visible "><a class="dropdown-item dropdown-toggle" href="#">Action</a>
-                  <ul class="dropdown-menu overflow-visible">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-                </li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#counter">Experience</a></li>
+                <li class="nav-item "><a class="dropdown-item " href="#testimonial">Testimonial</a></li>
               </ul>
             </li>
           <li class="nav-item ">
-            <a class="nav-link " href="#"><span class="link-1">Contact</span></a>
+            <a class="nav-link " href="#contact"><span class="link-1">Contact</span></a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
   <!--  -->
-  <div class="home-content text-center d-flex justify-content-center align-items-center align-content-center position-relative " style="background-image: url(Img/hero-bg.jpg);">
+  <div id="home" class="home-content text-center d-flex justify-content-center align-items-center align-content-center position-relative " style="background-image: url(Img/hero-bg.jpg);">
     <div class="overlay-itro"></div>
     <div class="container text-white position-relative">
       <h1 class="home-title mb-4">I am Morgan Freeman</h1>
@@ -143,7 +136,7 @@
   </div>
 </section>
 
-<section class="services">
+<section id="services" class="services">
   <div class="container width-test1">
     <div class="row d-flex text-center justify-content-center align-content-center p-2 mt-5">
       <div class="col-sm-4">
@@ -230,7 +223,7 @@
 </section>
 
 <!--  -->
-<div class="section-counter bg-image text-center d-flex justify-content-center align-items-center align-content-center fs-4 " style="background-image: url(Img/counters-bg.jpg)">
+<div id="counter" class="section-counter bg-image text-center d-flex justify-content-center align-items-center align-content-center fs-4 " style="background-image: url(Img/counters-bg.jpg)">
   <div class="overlay-mf"></div>
   <div class="container position-relative ">
     <div class="row">
@@ -251,7 +244,7 @@
             <span class="ico-circle"><i class="fa-regular fa-newspaper"></i></span>
           </div>
           <div class="counter-num">
-            <p data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="0" class="counter purecounter">25</p>
+            <p data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="0" class="counter purecounter">5</p>
             <span class="counter-text">YEARS OF EXPERIENCE</span>
           </div>
         </div>
@@ -284,7 +277,7 @@
 
 <!--  -->
 
-<section class="portofolio" style="background-color: #fff;">
+<section id="portofolio" class="portofolio" style="background-color: #fff;">
   <div class="container pt-5 pb-5 width-test">
     <div class="row text-center">
       <div class="col-sm-12">
@@ -445,7 +438,7 @@
   </div>
 </section>
 <!-- ================== -->
-<div class="slider-section bg-image text-center d-flex justify-content-center align-items-center align-content-center fs-4 " style="background-image: url(Img/overlay-bg.jpg)">
+<div id="testimonial" class="slider-section bg-image text-center d-flex justify-content-center align-items-center align-content-center fs-4 " style="background-image: url(Img/overlay-bg.jpg)">
   <div class="overlay-mf"></div>
   <div class="container">
     <div class="row">
@@ -501,7 +494,7 @@
 </div>
 <!-- =============== -->
 
-<div class="blog-section pt-5 pb-5">
+<div id="blog" class="blog-section pt-5 pb-5">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -574,7 +567,7 @@
   </div>
 </div>
 <!-- =================== -->
-<section id="contact" class="form-section" style="background-image: url(Img/overlay-bg.jpg)">
+<section id="contact" class="form-section py-5" style="background-image: url(Img/overlay-bg.jpg)">
   <div class="form-overlay"></div>
   <div class="container position-relative bg-white text-black p-5">
     <div class="row">
@@ -667,7 +660,7 @@
         <div class="copyright-box">
           <p class="copyright">© Copyright <span class="fw-bold">DevFolio</span>. All Rights Reserved</p>
           <div class="credits">
-            Designed by <a class="text-white text-decoration-none" href="#">BootstrapMade</a>
+            Designed by <a class="text-white text-decoration-none" target="_blank" href="https://linkedin.com/in/omar-kobro/">Omar Kobro</a>
           </div>
         </div>
       </div>

@@ -25,7 +25,7 @@ body{
 
 .home-link::after{
     content: "";
-    height: 2px;
+    height: 3px;
     width: 90%;
     background-color: #fff;
     display: block;
@@ -68,7 +68,7 @@ body{
 @media (max-width: 991px) { 
     .home-link::after{
         content: "";
-        height: 2px;
+        height: 3px;
         width: 10%;
         background-color: #fff;
         display: block;
@@ -200,7 +200,6 @@ body{
     background-color: #fff;
     margin: 1.3rem 0;
     padding: 1rem;
-    /* font-size: 1.3rem; */
     border-radius: 20px;
     box-shadow: 5px 5px 15px rgb(211, 211, 211);
 }
@@ -219,7 +218,6 @@ body{
     height: 100px;
     border: 10px solid #0d6dfdd5;
     border-radius: 50%;
-    /* background-color: #0d6efd; */
     padding: 50px;
     margin: auto;
     margin-bottom: 15px;
@@ -408,17 +406,6 @@ body{
         width: 100%;
     }
  }
-
- .form-section{
-    position: relative;
-    color: #fff;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
-    padding: 4rem;
- }
-
  .form-overlay{
     background-color: #0d6dfdd5;
     position: absolute;
@@ -429,13 +416,33 @@ body{
     width: 100%;
     opacity: 0.9;
  }
- .form-underline{
-    background-color: #0d6efd;
+
+
+.form-section{
+    position: relative;
+    color: #000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+.form-container{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.form-underline{
+    background-color: #0b5ed7;
     width: 16%;
     height: 3px;
     text-align: center;
- }
-
+}
+.form-container{
+    background-color: #eee;
+}
 .socials .ico-circle{
     display: flex;
     align-items: center;
@@ -444,7 +451,7 @@ body{
     text-align: center;
     width: 50px;
     height: 50px;
-    border: 3px solid #0d6efd;
+    border: 3px solid #0b5ed7;
     padding: 15px;
     margin: 7px;
     border-radius: 100%;
@@ -452,14 +459,34 @@ body{
     color: black;
 }
 
+@media (max-width: 440px) {
+    .socials{
+        width: 100%;
+        justify-content: center;
+    }
+    .socials ul {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
-
+}
 .socials .ico-circle:hover{
-    background-color: #0d6efd;
+    background-color: #0b5ed7;
     border: 3px solid #bbc1cab7;
     transition: all 300ms ease-in-out;
     color: white;
 
+}
+
+.contactIcons{
+    color:#0b5ed7 ;
+}
+.sendMessage, .addTask{
+    background-color:#0b5ed7 ;
+}
+.sendMessage:hover , .addTask:hover{
+    background-color: #0f68ee;
 }
 
 .Copyright-section{
